@@ -67,6 +67,14 @@ li.hidden {
 visibility: hidden;
 }
 
+p::selection {
+
+background-color: lightgray;
+color: black;
+
+}
+
+
 
 
 

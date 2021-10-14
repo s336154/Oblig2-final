@@ -4,7 +4,6 @@ border: none;
 font-weight: medium;
  line-height: 1.5em;
  word-spacing: 0.25em;
-
    text-decoration: none;
     width: 100%;
       font-family: "Papyrus", "Copperplate", fantasy;
@@ -193,8 +192,6 @@ font-weight: bold;
 
 .p2 {
 color:  #ff99bb;
-font-family: Papyrus, Copperplate, Fantasy;
-font-weight: bold;
 align: center;
  background-image: url(../images/space2.jpg);
   opacity: 0.89;

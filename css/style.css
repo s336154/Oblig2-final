@@ -1,5 +1,4 @@
 
-
 * {
 color: lightgray;
 border: none;
@@ -10,7 +9,6 @@ font-weight: medium;
  background-color: black;
    text-decoration: none;
     text-align: center;
-
     width: 100%;
       font-family: "Papyrus", "Copperplate", fantasy;
       margin: 0;
@@ -37,17 +35,13 @@ font-weight: bold;
 }
 
  /*
-
 nav {
-
    font-weight: bold;
 }
-
 ul {
  background-image: url(../images/space.jfif);
  background-repeat: repeat-x;
 }
-
 li {
   letter-spacing: 3px;
   display: inline;
@@ -59,35 +53,22 @@ li {
    font-weight: bold;
     background-image: url(../images/space.jfif);
     background-repeat: repeat-x;
-
 }
-
 nav li a:hover {
 text-decoration: underline;
 background-color: lightgray;
 padding: 3px;
 position: relative;
 top: -4px;
-
-
 }
-
 li.hidden {
 visibility: hidden;
 }
-
 p::selection {
-
 background-color: lightgray;
 color: black;
-
 }
-
 */
-*{
-  font-family: Papyrus;
-  margin: 0;
-}
 
 
 .wrapper{
@@ -148,7 +129,7 @@ nav ul{
 }
 
 
-}
+
 
 
 
@@ -160,22 +141,19 @@ nav ul{
     opacity:0.8;
     padding: 5px;
     margin: 5px:
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: auto auto;
+     grid-template-rows: auto auto;
+  /*     justify-content: space-evenly; */
+    align-content: center;
 }
 
 
 
-.grid-container {
-  display: grid;
-  grid-gap: 10px;
-  background-color: black;
-    width: 100%;
-       height: 100%;
-
+ul {
+width: 100%;
 }
 
 .grid-item {
-
   font-size: 30px;
   width: 100%;
 
@@ -230,10 +208,6 @@ margin: 0 20px;
 .site-nav ul {
 display: none;
 }
-
-
-
-
 
 
 

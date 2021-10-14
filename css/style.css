@@ -5,13 +5,15 @@ font-weight: medium;
  line-height: 1.5em;
  word-spacing: 0.25em;
    text-decoration: none;
-    width: 100%;
       font-family: "Papyrus", "Copperplate", fantasy;
       margin: 0;
+
 }
 
 body {
 height: 100%;
+ background-image: url(../images/space.jfif);
+    width: 100%;
 }
 
 
@@ -202,13 +204,15 @@ align: center;
   text-align: center;
 }
 
-.about {
+.about, .about div, .about h2 {
 color: #f2d9e6;
 font-size: 20px;
 text-align: center;
 font-weight: bold;
  letter-spacing: 10px;
  background-color: black;
+ z-index: 1;
+
 }
 
 nav {
@@ -218,21 +222,25 @@ nav {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 40% 60%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 45% auto;
   grid-gap: 10px;
-  padding: 10px;
+  padding: 30px;
    background-image: url(../images/space2.jpg);
     text-align: center;
     color:  #ff99bb;
+
+
+
 }
 
 .grid-container > div {
   background-color:  black;
   text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+  padding: 15px 0;
+  font-size: 22px;
   opacity: 0.89;
+
 }
 
 img {
@@ -240,5 +248,23 @@ width: 100%;
 height: 100%;
 
 }
+
+p {
+
+
+}
+
+
+
+
+
+
+img.align-left {
+ float: left;
+margin-right: 10px;
+}
+
+
+
 
 

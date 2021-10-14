@@ -194,6 +194,7 @@ font-weight: bold;
     word-spacing: 0.3em;
      letter-spacing: 5px;
     color: #c6538c;
+    padding: 20px 20px;
 }
 
 .p2 {
@@ -267,17 +268,19 @@ margin-right: 10px;
 section {
 text-align: center;
 background-color: black;
+opacity: 0.7;
 
 }
 
 section a h2 {
 
 font-weight: bold;
-color: gray;
+color: darkred;
 border: 3px solid gray;
 display: inline-block;
-padding: 6px 12px;
+padding: 15px 15px;
 border-radius: 36px;
+background-color: #ff99bb;
 }
 
 

@@ -264,6 +264,21 @@ img.align-left {
 margin-right: 10px;
 }
 
+section {
+text-align: center;
+background-color: black;
+
+}
+
+section a h2 {
+
+font-weight: bold;
+color: gray;
+border: 3px solid gray;
+display: inline-block;
+padding: 6px 12px;
+border-radius: 36px;
+}
 
 
 

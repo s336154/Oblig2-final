@@ -3,7 +3,7 @@
 color: lightgray;
 border: none;
 font-weight: medium;
- font-size: 16px;
+ font-size: 22px;
  line-height: 1.5em;
  word-spacing: 0.25em;
  background-color: black;
@@ -54,21 +54,6 @@ li {
     background-image: url(../images/space.jfif);
     background-repeat: repeat-x;
 }
-nav li a:hover {
-text-decoration: underline;
-background-color: lightgray;
-padding: 3px;
-position: relative;
-top: -4px;
-}
-li.hidden {
-visibility: hidden;
-}
-p::selection {
-background-color: lightgray;
-color: black;
-}
-*/
 
 
 .wrapper{
@@ -127,11 +112,6 @@ nav a:hover{
 nav ul{
   display: flex;
 }
-
-
-
-
-
 
 
 .grid {
@@ -200,13 +180,34 @@ width: 100%;
 
 }
 
-.site-nav {
-margin: 0 20px;
-
+footer {
+letter-spacing: 10px;
+color: black;
+font-size: 30px;
+font-weight: bold;
+  font-size: 18px;
 }
 
-.site-nav ul {
-display: none;
+.p2 {
+font-size; 22px;
+color: pink;
+font-family: Papyrus, Copperplate, Fantasy;
+font-weight: bold;
+align: center;
+ background-image: url(../images/space2.jpg);
+  opacity: 0.89;
+}
+
+.about {
+color: pink;
+font-size: 40px;
+text-align: center;
+background-color: black;
+opacity: 0.6;
+font-family: Papyrus, Copperplate, Fantasy;
+font-weight: bold;
+ letter-spacing: 10px;
+
 }
 
 

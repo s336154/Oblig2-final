@@ -130,7 +130,7 @@ nav {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-columns: auto auto auto;
   grid-template-rows: 45% auto;
   grid-gap: 10px;
   padding: 30px;
